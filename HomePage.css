@@ -1,7 +1,9 @@
+/*Makes the background black and the text center aligned*/
 body{
     background-color:rgb(0, 0, 0);
     text-align: center;
 }
+/*Makes a glowing border specifically around the header*/
 h1{
     font-size: 48px;
             color: #fff;
@@ -18,7 +20,7 @@ nav{border-style:outset;
     font-size: 40px;
 
 }
-
+/*Makes a glowing border specifically around the music element*/
 Music{
     color: #fff;
     text-shadow:
@@ -28,6 +30,7 @@ Music{
         0 0 40px rgb(251, 255, 0),
         0 0 80px rgb(251, 255, 0);
 }
+/*Makes a glowing border specifically around the music element*/
 Craps{
     color: #fff;
             text-shadow:
@@ -38,12 +41,3 @@ Craps{
                 0 0 80px rgb(60, 255, 0);
 }
 
-footer{
-    color: #fff;
-    text-shadow:
-        0 0 5px rgb(60, 255, 0),
-        0 0 10px rgb(60, 255, 0),
-        0 0 20px rgb(60, 255, 0),
-        0 0 40px rgb(60, 255, 0),
-        0 0 80px rgb(60, 255, 0);
-}
