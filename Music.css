@@ -1,0 +1,58 @@
+/*Creates a border around all HTML elements on the page*/
+html {
+    
+     width: 1000px;
+     margin: 50px auto;
+     border: 15px solid rgb(94, 94, 94); /* width, style, colour */
+     
+}
+/*Stylizes the body*/
+body{
+    /*Changes font family*/
+    font-family: Helvetica;
+    /*Changes font size*/
+    font-size: 30px;
+    /*Changes the background to a different color*/
+    background-color:rgb(0, 0, 0);
+    /*Aligns all the text to the center*/
+    text-align: center;
+    /* Changes the text color to an off-white*/
+    color: #fff;
+    
+    /* Makes a bit of a glow around the text to help with reading the text and make it pop*/
+    text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(251, 255, 0),
+        0 0 20px rgb(251, 255, 0),
+        0 0 40px rgb(251, 255, 0),
+        0 0 80px rgb(251, 255, 0);
+    
+}
+
+    
+
+/*Stylizing the button by giving it a background, a new font, borders, and padding*/
+button
+{
+    background-color: rgb(48, 48, 48);
+    font-style:oblique;
+    font-family: Courier;
+    font-size: 25px;
+    width: 175px;
+    border-style:dashed;
+    border-radius: 25px;
+    padding: 15px;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(251, 255, 0),
+        0 0 10px rgb(251, 255, 0),
+        0 0 20px rgb(251, 255, 0),
+        0 0 40px rgb(251, 255, 0),
+        0 0 80px rgb(251, 255, 0);
+    
+    box-shadow: 0 0 5px rgb(251, 255, 0),
+            0 0 10px rgb(251, 255, 0),
+            0 0 20px rgb(251, 255, 0),
+            0 0 40px rgb(255, 0, 0),
+            0 0 80px rgb(251, 255, 0);;
+}

@@ -1,0 +1,1 @@
+This is meant to be a website for entertainment. Currently it includes a homepage, a link to an HTML where the user can play a very basic version of craps, and a link to an HTML where the user can press a button to listen to a song.
