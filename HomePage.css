@@ -30,7 +30,7 @@ Music{
         0 0 40px rgb(251, 255, 0),
         0 0 80px rgb(251, 255, 0);
 }
-/*Makes a glowing border specifically around the music element*/
+/*Makes a glowing border specifically around the craps element*/
 Craps{
     color: #fff;
             text-shadow:
@@ -39,5 +39,8 @@ Craps{
                 0 0 20px rgb(60, 255, 0),
                 0 0 40px rgb(60, 255, 0),
                 0 0 80px rgb(60, 255, 0);
+}
+#Compass{
+    float: right;
 }
 
